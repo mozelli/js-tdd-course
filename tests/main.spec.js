@@ -1,8 +1,5 @@
 import { expect } from 'chai';
-import { sum, sub, mult, div } from '../src/main';
-//import { sum, sub, mult, div } from '../src/main';
-//const expect = require('chai').expect;
-//const calc = require('../src/main');
+import { sum, sub, mult, div } from '../src/calc';
 
 describe('Calc', function() {
 
