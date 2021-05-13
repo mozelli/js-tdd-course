@@ -22,4 +22,8 @@ describe('FizzBuzz', function() {
         expect(fizzBuzz(13)).to.be.equal(13);
         expect(fizzBuzz(19)).to.be.equal(19);
     });
+
+    it('should show 0 when the number is 0', function() {
+        expect(fizzBuzz(0)).to.be.equal(0);
+    })
 });
