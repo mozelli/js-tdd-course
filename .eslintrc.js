@@ -14,10 +14,11 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
   rules: {
     'linebreak-style': ['error', 'windows'],
   },
 };
+
+//plugins: [
+  //  'react',
+  //],
